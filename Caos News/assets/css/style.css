@@ -1,0 +1,117 @@
+.color{
+    background-color: rgb(91, 92, 93);
+}
+
+footer{
+    display   : inline-block;
+    flex      : auto;
+    text-align: center;
+}
+
+body{
+    background-image     : linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.24)), url("https://i.pinimg.com/564x/68/2a/ba/682aba4d4f4438d75504b69462bcbe71.jpg");
+    background-color     : rgba(0, 0, 0, 0.411);
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
+}
+
+footer{
+    bottom  : 0px;
+    position: fixed;
+    display : inherit;
+
+}
+
+.section1{
+    width           : 100%;
+    height          : 420px;
+    padding-top     : 10px;
+    background-color: lightpink;
+    margin-top      : 100px;
+    display         : flex;
+    justify-content : center;
+}
+
+.section2{
+    width           : 80%;
+    height          : 420px;
+    padding-top     : 10px;
+    background-color: lightpink;
+    margin-top      : 100px;
+    display         : flex;
+    justify-content : center;
+}
+
+form{
+    display   : grid;
+    padding   : 10px;
+    text-align: center;
+}
+
+.xd{
+    margin       : 10px;
+    width        : 300px;
+    border       : solid;
+    border-radius: 10px;
+    height       : 40px;
+}
+
+html.dark-mode{
+    filter: invert(100%);
+}
+
+html.dark-mode img{
+    filter: invert(100%);
+}
+
+.noticia{
+    display         : inline-block;
+    width           : 70%;
+    height          : max-content;
+    background-color: white;
+    border          : 2px solid pink;
+    border-radius   : 5px;
+    margin          : 20px;
+    padding         : 15px;
+}
+
+.arti{
+    display         : inline-block;
+    flex-direction  : column;
+    width           : auto;
+    height          : auto;
+    background-color: white;
+    border          : 2px solid pink;
+    border-radius   : 5px;
+    margin          : 15px;
+}
+
+.fue{
+    display: inline-flex;
+    width  : 100%;
+}
+
+.stat{
+    text-align : center;
+    width      : 100%;
+    margin-left: 20px;
+}
+
+.killme{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    background-color: palevioletred;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+.killme:hover{
+    box-shadow: 0 3px 11px rgba(0,0,0,0.3);
+}
+
+.sus{
+    display: flex;
+    place-content: center;
+}
