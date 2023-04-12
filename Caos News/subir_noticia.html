@@ -65,23 +65,26 @@
 <body>
     <div class="sus">
       <section class="killme">
-          <div class="mb-3" style="display: inline-block;">
+          <div class="mb-3" style="display: inherit;flex-direction: row; text-align: -webkit-center">
               <label for="formFile" class="form-label help">
-                <h1 style="border: 4px solid pink; border-radius: 10px; padding: 2px; background-color: white;">Ingrese su noticia</h1>
+                <h1 style="border: 4px solid pink; border-radius: 10px; padding: 2px; background-color: white; width: 100%;">Ingrese su noticia</h1>
               </label>
-              <input class="form-control" type="file" id="formFile" style="width: 700px; height: auto;">
+              <input class="form-control basta" type="file" id="formFile">
           </div>
           <input class="btn btn-light" type="submit" value="enviar">
           <p>Debe ser enviado en formato word el informe de la noticia.</p>
           <p>Un administrador la examinara para ver si es posible subirla a la web.</p>
           <p>Gracias por confiar en CAOS NEWS.</p>
+          <a class="btn" style="background-color: pink; border-color: black ;" href="./solicitudes.html" role="button">Entrar como Administrador</a>
+
       </section>
     </div>
-    <a class="btn" style="background-color: pink; border-color: black ;margin-left: 10px;margin-top: 170px;" href="./solicitudes.html" role="button">Link</a>
-
+    <div>
+    </div>
+    <footer class = "bg-danger-subtle" >
+      <h1     style = "color: rgba(0, 0, 0, 0.295);">Todos los derechos reservados, 2023</h1>
+      <h5 style = "color: rgba(0, 0, 0, 0.295);">Nada de este sitio web es ilegal, todo esta hecho en base a la ley numero 24.500-03</h5>
+  </footer>
 </body>
-<footer class = "container-fluid bg-danger-subtle" >
-    <h1     style = "color: rgba(0, 0, 0, 0.295);">Todos los derechos reservados, 2023</h1>
-    <h5 style = "color: rgba(0, 0, 0, 0.295);">Nada de este sitio web es ilegal, todo esta hecho en base a la ley numero 24.500-03</h5>
-</footer>
+
 </html>
